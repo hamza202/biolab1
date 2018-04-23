@@ -40,16 +40,8 @@
         <!-- Start shop section-->
         <section class="shop">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="block_content">
-                            <h4 class="widget-title"><span><span class="fa fa-twitter"></span>Last Twitter</span></h4>
-                            <div class="twittert-container">
-                                <a class="twitter-timeline" href="#"> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-9">
+                <div class="row custome-row">
+                    <div class="col-md-9 pull-right">
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="shop-title ">
@@ -58,41 +50,41 @@
                             </div>
 
                         </div>
-<!--                        <div class="mshop-top">-->
-<!--                            <div class="row">-->
-<!--                                <div class="col-md-3 col-sm-5 col-xs-12">-->
-<!--                                    <div class="category-filter">-->
-<!--                                        <div class="product-filter">-->
-<!--                                            <div class="top-product-filter">-->
-<!--                                                <label for="view-by">Store By</label>-->
-<!--                                                <select name="#" id="view-by">-->
-<!--                                                    <option value="25">Default</option>-->
-<!--                                                    <option value="20">Name (A-Z)</option>-->
-<!--                                                    <option value="15">Name (Z-A)</option>-->
-<!--                                                    <option value="10">New</option>-->
-<!--                                                </select>-->
-<!--                                            </div>-->
-<!--                                        </div>-->
-<!--                                        <div class="clearfix"></div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="col-md-4 col-sm-4 col-xs-12">-->
-<!--                                    <div class="quantity-filter">-->
-<!--                                        <label for="viewby5">-->
-<!--                                            Show-->
-<!--                                            <select class="ignore" name="#" id="viewby5">-->
-<!--                                                <option value="6">6</option>-->
-<!--                                                <option value="9">9</option>-->
-<!--                                                <option value="12">12</option>-->
-<!--                                                <option value="15">15</option>-->
-<!--                                                <option value="18">18</option>-->
-<!--                                            </select>-->
-<!--                                            Item Per Page-->
-<!--                                        </label>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
+                        <!--                        <div class="mshop-top">-->
+                        <!--                            <div class="row">-->
+                        <!--                                <div class="col-md-3 col-sm-5 col-xs-12">-->
+                        <!--                                    <div class="category-filter">-->
+                        <!--                                        <div class="product-filter">-->
+                        <!--                                            <div class="top-product-filter">-->
+                        <!--                                                <label for="view-by">Store By</label>-->
+                        <!--                                                <select name="#" id="view-by">-->
+                        <!--                                                    <option value="25">Default</option>-->
+                        <!--                                                    <option value="20">Name (A-Z)</option>-->
+                        <!--                                                    <option value="15">Name (Z-A)</option>-->
+                        <!--                                                    <option value="10">New</option>-->
+                        <!--                                                </select>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                        <div class="clearfix"></div>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                                <div class="col-md-4 col-sm-4 col-xs-12">-->
+                        <!--                                    <div class="quantity-filter">-->
+                        <!--                                        <label for="viewby5">-->
+                        <!--                                            Show-->
+                        <!--                                            <select class="ignore" name="#" id="viewby5">-->
+                        <!--                                                <option value="6">6</option>-->
+                        <!--                                                <option value="9">9</option>-->
+                        <!--                                                <option value="12">12</option>-->
+                        <!--                                                <option value="15">15</option>-->
+                        <!--                                                <option value="18">18</option>-->
+                        <!--                                            </select>-->
+                        <!--                                            Item Per Page-->
+                        <!--                                        </label>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </div>-->
                         <div class="shop-under-category">
                             <div class="tab-content">
                                 <div class="row shop-list">
@@ -118,7 +110,7 @@
                                                 </button>
                                                 <button class=" btn btn-default btn-fb"><i
                                                             class="fa fa-linkedin-square"></i>
-                                                    Share
+                                                    Linked In
                                                 </button>
                                             </div>
 
@@ -158,7 +150,7 @@
                                                 </button>
                                                 <button class=" btn btn-default btn-fb"><i
                                                             class="fa fa-linkedin-square"></i>
-                                                    Share
+                                                    Linked In
                                                 </button>
                                             </div>
 
@@ -198,7 +190,7 @@
                                                 </button>
                                                 <button class=" btn btn-default btn-fb"><i
                                                             class="fa fa-linkedin-square"></i>
-                                                    Share
+                                                    Linked In
                                                 </button>
                                             </div>
 
@@ -238,7 +230,7 @@
                                                 </button>
                                                 <button class=" btn btn-default btn-fb"><i
                                                             class="fa fa-linkedin-square"></i>
-                                                    Share
+                                                    Linked In
                                                 </button>
                                             </div>
 
@@ -273,6 +265,14 @@
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="block_content">
+                            <h4 class="widget-title"><span><span class="fa fa-twitter"></span>Last Twitter</span></h4>
+                            <div class="twittert-container">
+                                <a class="twitter-timeline" href="#"> </a>
                             </div>
                         </div>
                     </div>

@@ -6,15 +6,11 @@
 
 
 //kljhk
-$(window).resize(function(){
 
-    if ($(window).width() <= 1200) {
         $('.rd-navbar-nav li:has(> ul)').on("click", function () {
             // $(this).find("ul").toggle(100);
             $(this).toggleClass('open')
         });
-    }
-});
 
 $('.rd-navbar-nav li:has(> ul)').addClass("haschaid");
 

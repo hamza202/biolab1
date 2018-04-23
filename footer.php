@@ -33,7 +33,7 @@
             <div class="col-md-4 text-center text-md-right">
                 <div class="dev-by">
                     Designed & Developed by :<br>
-                    <img src="images/m-logo.png" style="width:95px;height:85px" />
+                    <img src="images/m-logo.png" style="width:70px;height:auto" />
                 </div>
             </div>
         </div>

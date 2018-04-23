@@ -54,9 +54,9 @@
                     <li class="act act2">
                         <a href="javascript:void(0)" class="row2-2">about us</a>
                         <ul>
-                            <li class="act "><a href="about.php#History">Biolab Overview</a></li>
-                            <li class="act "><a href="about.php#Chairman">Chairman</a></li>
-                            <li class="act "><a href="about.php#Team">Our Team</a></li>
+                            <li class="act "><a href="about.php#History">Overview</a></li>
+                            <li class="act "><a href="about.php#Chairman">CHAIRMAN WORD</a></li>
+                            <li class="act "><a href="about.php#Team">OUR TEAM</a></li>
                             <li class="act "><a href="about.php#Mission">Mission &amp; Vision</a></li>
 
                             <li class="act "><a href="about.php#Certifications">Certifications</a></li>
@@ -70,7 +70,7 @@
                         </ul>
                     </li>
                     <li class="act">
-                        <a href="products.php" class="row2-1">careers</a>
+                        <a href="careers.php" class="row2-1">careers</a>
                     </li>
                     <li class="act">
                         <a href="products.php" class="row2-2">Products</a>

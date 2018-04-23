@@ -1364,7 +1364,8 @@ a.btn-def:hover {
 }
 .rd-navbar-static .rd-navbar-nav li ul li a{
     font-family: "Unica One", cursive;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 a.blue-btn{
     background: #004d71 ;
@@ -1385,13 +1386,13 @@ a.blue-btn:hover{
 .mt-40px{
     margin-top: 30px;
 }
-.shop .lSAction > a{
+#imageGallery-wrap .lSAction > a{
     background-image: url(../images/controls.png);
 }
-.shop .lSAction > .lSPrev{
+#imageGallery-wrap .lSAction > .lSPrev{
     left: 2px;
 }
-.shop .lSAction > .lSNext{
+#imageGallery-wrap .lSAction > .lSNext{
     right: 2px;
 }
 #imageGallery img{
@@ -1399,4 +1400,30 @@ a.blue-btn:hover{
 }
 .mb-30px{
     margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+    .owl-prev, .owl-next {
+        top: -10%;
+    }
+    .owl-prev{
+        left: 15%;
+    }
+    .owl-next {
+        right: 15%;
+    }
+    ul.footer-social {
+        text-align: center;
+    }
+    .quick-link li{
+        text-align: center;
+    }
+}
+.well-lg-var-2{
+    padding-bottom: 1rem;
+}
+.pull-left{
+    float: left !important;
+}
+.custome-row{
+    display: block !important;
 }

@@ -99,21 +99,21 @@
         <section class="well-lg-var-1 bg-secondary-var-4">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-6 item">
+                    <div class="col-md-4 item">
                         <span class="fa fa-calendar-check-o fa-3x padding-icons  icon-xl-var-1 icon-default animated wow rotateIn"
                               data-wow-delay="0.4s" data-wow-duration="2s"></span>
                         <h4 class="counter text-bold" data-from="0" data-to="15" data-speed="1000"></h4>
                         <h4 class="text-bold text-secondary">Years of Experience
                         </h4>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 item ">
+                    <div class="col-md-4  item ">
                         <span class="fa fa fa-handshake-o padding-icons fa-3x  icon-xl-var-1 icon-default animated wow rotateIn"
                               data-wow-delay="0.6s" data-wow-duration="2s"></span>
                         <h4 class="counter text-bold" data-from="0" data-to="6" data-speed="1000"></h4>
                         <h4 class="text-bold text-secondary">Success Partners
                         </h4>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-6 offset-1 item animated wow rotateIn"
+                    <div class="col-md-4 offset-1 item animated wow rotateIn"
                     " data-wow-delay="0.8s" data-wow-duration="2s"">
                     <span class="fa fa-gift padding-icons fa-3x icon-xl-var-1 icon-default animated wow rotateIn"
                           data-wow-delay="0.8s" data-wow-duration="2s"></span>
@@ -211,7 +211,9 @@
                                     <hr>
 
                                 </div>
-                                <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
+                                <div class="mt-40px mb-30px">
+                                    <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
+                                </div>
                             </section>
 
 
@@ -319,7 +321,7 @@
         </section>
         <!-- our client  Design -->
         <!-- Garden -->
-        <section class="well-xl-var-1 bg-images-3" style="margin-top: 65px;margin-bottom:140px">
+        <section class="well-xl-var-1 bg-images-3" style="margin-top: 65px;margin-bottom:5px">
             <!--style="margin-top: 65px;" -->
             <div class="container text-center color-white">
                 <h1 class="color-white animated wow fadeInUp">BioLab</h1>
@@ -338,7 +340,7 @@
                         <h2 style="color:#fff;"> our<br>client
                         </h2>
 
-                        <h4 class="under-welcome" style="color:#ccc;">LOREM IPSUM</h4>
+                        <h4 class="under-welcome" style="color:#ccc;">Biolab’s clients</h4>
                         <br>
                         <p style="color:#fff;">Lorem Ipsum has been the industry's standard dummy text ever since the
                             1500s,

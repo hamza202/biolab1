@@ -59,11 +59,11 @@
         <!-- END  About us-->
 
         <!--  Perfect Garden -->
-        <section>
+        <section id="Chairman">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 bg-secondary-var-3 bg-position">
-                        <h2 class="h2-v">Chairman
+                        <h2 class="h2-v">Chairman of the Board Message
                         </h2>
 
                         <p>BLA products fully comply with all relevant regulatory approvals.
@@ -148,6 +148,37 @@
 
                 </div>
         </section>
+        <section class="well-lg-var-4 bg-secondary-var-4" id="Certifications">
+            <div class="container">
+                <h2 class="text-center">Certifications</h2>
+                <div class="row">
+                    <div class="col-xs-12 mt-40px mb-30px">
+                        <div id="imageGallery-wrap">
+                            <ul id="imageGallery">
+                                <li data-thumb="images/09.jpg" data-src="images/09.jpg">
+                                    <img src="images/09.jpg" />
+                                </li>
+                                <li data-thumb="images/009.jpg" data-src="images/009.jpg">
+                                    <img src="images/009.jpg" />
+                                </li>
+                                <li data-thumb="images/0009.jpg" data-src="images/0009.jpg">
+                                    <img src="images/0009.jpg" />
+                                </li>
+                                <li data-thumb="images/009.jpg" data-src="images/009.jpg">
+                                    <img src="images/009.jpg" />
+                                </li>
+                                <li data-thumb="images/009.jpg" data-src="images/009.jpg">
+                                    <img src="images/009.jpg" />
+                                </li>
+                                <li data-thumb="images/0009.jpg" data-src="images/0009.jpg">
+                                    <img src="images/0009.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <!--========================================================
@@ -158,6 +189,49 @@
 
 <!-- Core Scripts -->
 <script src="js/core.min.js"></script>
+<script type="text/javascript" src="js/lightslider.min.js"></script>
+<script type="text/javascript" src="js/lightgallery-all.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#imageGallery').lightSlider({
+            gallery: false,
+            item: 4,
+            loop: false,
+            enableDrag: false,
+            slideMargin:20,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        item: 3,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        item: 2,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        item: 1,
+                        slideMove: 1
+                    }
+                }
+            ],
+            onSliderLoad: function(el) {
+                el.lightGallery({
+                    selector: '#imageGallery .lslide'
+                });
+            }
+        });
+    });
+
+</script>
+<script src="js/script.js"></script>
 <script src="js/lightslider.min.js"></script>
 <script>
 
@@ -200,7 +274,7 @@
     });
 </script>
 <!-- Additional Functionality Scripts -->
-<script src="js/script.js"></script>
+
 <script src="js/customer.js"></script>
 </body>
 </html>

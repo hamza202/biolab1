@@ -39,16 +39,8 @@
         <!-- Start shop section-->
         <section class="shop">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="block_content">
-                            <h4 class="widget-title"><span><span class="fa fa-twitter"></span>Last Twitter</span></h4>
-                            <div class="twittert-container">
-                                <a class="twitter-timeline" href="#"> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-9">
+                <div class="row custome-row">
+                    <div class="col-md-9 pull-right">
                         <img src="images/home-03.jpg">
                         <div class="row">
                             <div class="col-xs-12">
@@ -78,7 +70,7 @@
                                             Twitter
                                         </button>
                                         <button class=" btn btn-default btn-fb"><i class="fa fa-linkedin-square"></i>
-                                            Share
+                                            Linked In
                                         </button>
                                     </div>
                                 </div>
@@ -106,6 +98,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-3">
+                        <div class="block_content">
+                            <h4 class="widget-title"><span><span class="fa fa-twitter"></span>Last Twitter</span></h4>
+                            <div class="twittert-container">
+                                <a class="twitter-timeline" href="#"> </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,7 +128,30 @@
         $('#imageGallery').lightSlider({
             gallery: false,
             item: 2,
-            loop: true,
+            loop: false,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        item: 2,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        item: 1,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        item: 1,
+                        slideMove: 1
+                    }
+                }
+            ],
             enableDrag: false,
             onSliderLoad: function(el) {
                 el.lightGallery({

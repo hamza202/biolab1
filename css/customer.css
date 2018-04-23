@@ -1385,3 +1385,18 @@ a.blue-btn:hover{
 .mt-40px{
     margin-top: 30px;
 }
+.shop .lSAction > a{
+    background-image: url(../images/controls.png);
+}
+.shop .lSAction > .lSPrev{
+    left: 2px;
+}
+.shop .lSAction > .lSNext{
+    right: 2px;
+}
+#imageGallery img{
+    cursor: pointer;
+}
+.mb-30px{
+    margin-bottom: 30px;
+}

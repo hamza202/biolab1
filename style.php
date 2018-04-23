@@ -7,6 +7,7 @@
     <!-- Stylesheets -->
 
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700|Open+Sans:300,400,600,700|Unica+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lightgallery.css">
     <link rel="stylesheet" href="css/lightslider.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">

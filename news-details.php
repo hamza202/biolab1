@@ -84,6 +84,24 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 mt-40px">
+                                <div id="imageGallery-wrap">
+                                    <ul id="imageGallery">
+                                        <li data-thumb="images/09.jpg" data-src="images/09.jpg">
+                                            <img src="images/09.jpg" />
+                                        </li>
+                                        <li data-thumb="images/009.jpg" data-src="images/009.jpg">
+                                            <img src="images/009.jpg" />
+                                        </li>
+                                        <li data-thumb="images/0009.jpg" data-src="images/0009.jpg">
+                                            <img src="images/0009.jpg" />
+                                        </li>
+                                        <li data-thumb="images/009.jpg" data-src="images/009.jpg">
+                                            <img src="images/009.jpg" />
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 mt-40px mb-30px">
                                 <iframe width="100%" height="400" src="https://www.youtube.com/embed/avP5d16wEp0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
@@ -103,6 +121,24 @@
 <!-- Core Scripts -->
 <script src="js/core.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightslider.min.js"></script>
+<script type="text/javascript" src="js/lightgallery-all.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#imageGallery').lightSlider({
+            gallery: false,
+            item: 2,
+            loop: true,
+            enableDrag: false,
+            onSliderLoad: function(el) {
+                el.lightGallery({
+                    selector: '#imageGallery .lslide'
+                });
+            }
+        });
+    });
+
+</script>
 <!-- Additional Functionality Scripts -->
 <script src="js/script.js"></script>
 <script src="js/customer.js"></script>

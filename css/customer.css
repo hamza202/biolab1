@@ -1427,3 +1427,23 @@ a.blue-btn:hover{
 .custome-row{
     display: block !important;
 }
+.our-clint-section .lSAction > a{
+    color: #ffffff ;
+    font-size: 35px ;
+    text-align: center;
+}
+.our-clint-section .lSAction > .lSPrev {
+    left: -10px;
+}
+.our-clint-section .lSAction > .lSNext {
+    right: -10px;
+}
+.our-clint-section li p{
+    color: #e7e7e7;
+    font-size: 16px;
+}
+.our-clint-section h4{
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+}

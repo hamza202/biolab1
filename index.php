@@ -342,9 +342,40 @@
 
                         <h4 class="under-welcome" style="color:#ccc;">Biolab’s clients</h4>
                         <br>
-                        <p style="color:#fff;">Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
-                            when an unknown printer took a galley of Lorem Ipsum.</p>
+
+
+                        <ul id="customers-slider1" class="content-slider m-t-45 text-center">
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut cumque cupiditate
+                                    debitis eius esse illum, incidunt laboriosam natus, odit qui quis, ratione
+                                    repellendus sed temporibus ullam ut vero voluptatum?</p>
+                                <h4>ahmed</h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut cumque cupiditate
+                                    debitis eius esse illum, incidunt laboriosam natus, odit qui quis, ratione
+                                    repellendus sed temporibus ullam ut vero voluptatum?</p>
+                                <h4>ahmed</h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut cumque cupiditate
+                                    debitis eius esse illum, incidunt laboriosam natus, odit qui quis, ratione
+                                    repellendus sed temporibus ullam ut vero voluptatum?</p>
+                                <h4>ahmed</h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut cumque cupiditate
+                                    debitis eius esse illum, incidunt laboriosam natus, odit qui quis, ratione
+                                    repellendus sed temporibus ullam ut vero voluptatum?</p>
+                                <h4>ahmed</h4>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aut cumque cupiditate
+                                    debitis eius esse illum, incidunt laboriosam natus, odit qui quis, ratione
+                                    repellendus sed temporibus ullam ut vero voluptatum?</p>
+                                <h4>ahmed</h4>
+                            </li>
+                        </ul>
 
 
                         <div class="triangel"></div>
@@ -371,7 +402,9 @@
                                 <p>Saline Water Conversion Corporation (SWCC), Ras Al Khair, has awarded Biolab Arabia a
                                     contract to supply 100% of their antiscalant chemical requirements for the year
                                     2016-17.</p>
-                                <a href="#" class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more"> Read More</a>
+                                <a href="#"
+                                   class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
+                                    Read More</a>
                             </div>
                             <div class="owl-item">
                                 <h3>Biolab Arabia secures Sharjah Electrical and Water Authority (SEWA), UAE contract
@@ -380,7 +413,9 @@
                                 <p>Biolab Arabia has been awarded a contract by Sharjah Electrical and Water Authority
                                     (SEWA) to
                                     supply 100% of their antiscalant chemical requirements for the year 2016-17.</p>
-                                <a href="#" class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more"> Read More</a>
+                                <a href="#"
+                                   class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
+                                    Read More</a>
 
                             </div>
                             <div class="owl-item">
@@ -389,7 +424,9 @@
                                     antiscalant
                                     chemical requirements for 2016-2017.
                                 </p>
-                                <a href="#" class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more"> Read More</a>
+                                <a href="#"
+                                   class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
+                                    Read More</a>
 
                             </div>
                         </div>
@@ -468,21 +505,27 @@
 
 <!-- Core Scripts -->
 <script src="js/core.min.js"></script>
+<script src="js/lightslider.min.js"></script>
 <script>
-    // $(document).ready(function () {
-    //     $(".rd-navbar-static .rd-navbar-nav li ul").hover(
-    //         function () {
-    //             $(this).parent().addClass("post-hover");
-    //         }, function () {
-    //             $(this).parent().removeClass("post-hover");
-    //         });
-    // });
 
+    $(document).ready(function () {
+        $("#customers-slider1").lightSlider({
+            loop: true,
+            keyPress: true,
+            auto:true,
+            speed:1000,
+            pause:2500,
+            slideMove: 1,
+            item: 1,
+            prevHtml: '<i class="fa fa-angle-left"></i>',
+            nextHtml: '<i class="fa fa-angle-right"></i>',
+            pager:false
+        });
+    });
 </script>
 <!-- Additional Functionality Scripts -->
 <script src="js/script.js"></script>
 <script>
-
 
 
 </script>

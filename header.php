@@ -1,7 +1,7 @@
 <!-- RD Navbar -->
-<div class="divforbtn animated wow fadeInDownBig" data-wow-delay="0.6s" data-wow-duration="2s"><span class="fa fa-angle-left spanleft"></span><input type="button" class="btn btn-send btnleft" value="Send an Inquiry" />
+<div class="divforbtn animated wow fadeInDownBig" data-wow-delay="0.6s" data-wow-duration="2s"><span class="fa fa-angle-left spanleft"></span><a href="inquiry.php" class="top-href">Send an Inquiry</a>
 </div>
-<div class="divforbtn divforbtn2 animated wow fadeInDownBig" data-wow-delay="0.7s" data-wow-duration="2s" ><span class="fa fa-angle-left spanleft"></span><input type="button" class="btn btn-send btnleft" value="Get a Profile"  />
+<div class="divforbtn divforbtn2 animated wow fadeInDownBig" data-wow-delay="0.7s" data-wow-duration="2s" ><span class="fa fa-angle-left spanleft"></span><a href="#" class="top-href">Get a Profile</a>
 </div>
 <div class="rd-navbar-wrap">
     <nav class="rd-navbar" data-rd-navbar-lg="rd-navbar-static" data-lg-layout='rd-navbar-static' data-lg-device-layout="rd-navbar-static">
@@ -27,7 +27,7 @@
                 <!-- RD Navbar Nav -->
                 <ul class="rd-navbar-nav">
                     <li class="active act act1">
-                        <a href="index.php" class"row2-1"><span class="fa fa-home forhomeicon"></span>Home</a>
+                        <a href="index.php" ><span class="fa fa-home forhomeicon"></span>Home</a>
                         <!-- RD Navbar Dropdown -->
                         <!--                                <ul class="rd-navbar-dropdown">-->
                         <!--                                    <li>-->
@@ -76,7 +76,7 @@
                         <a href="products.php" class="row2-2">Products</a>
                     </li>
 <li class="act">
-                        <a href="gallary.php" class="row2-1">Gallary</a>
+                        <a href="gallary.php" class="row2-1">Collage</a>
                     </li>
                     <li class="act">
                         <a href="contact.php" class="row2-1">Contacts us</a>

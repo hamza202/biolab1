@@ -211,11 +211,11 @@
                                     <hr>
 
                                 </div>
-                                <div class="mt-40px mb-30px">
-                                    <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
-                                </div>
-                            </section>
 
+                            </section>
+                            <div class="mt-40px" style="margin-bottom: 90px;">
+                                <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
+                            </div>
 
                             <input type="radio" name="accordion" id="acc-close"/>
                         </nav>

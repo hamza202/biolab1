@@ -37,7 +37,7 @@
     <main class="page-content careers-page">
         <!--About us-->
 
-      <section class="well-lg-var-3">
+      <section class="well-lg-var-3 bg-gray-4">
         <div class="container">
         
         <h2 class="text-center" id="History">Careers</h2>
@@ -53,7 +53,7 @@
               <div class="box-spacer-1">
                 <h4>Your career starts here!</h4>
                 <p>We seek individuals who share our values as a means of reinforcing and furthering the company's successful philosophy. We are looking for motivated, positive people specializing in:</p>
-                <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Join Now to Our Team</a>
+                <a href="job.php" class="btn btn-secondary-var-1 btn-md blue-btn">Join Now to Our Team</a>
               </div>
             </div>
           </div>
@@ -61,13 +61,13 @@
       </section>
 
 
-<section class="section section-md bg-gray-4 text-center">
+<section class="section section-md  text-center">
         <div class="container">
           <h2>Available Vacancies</h2>
           <p>Here’s a list of recently opened positions at Creator.</p>
           <div class="range range2">
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy" href="#">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
                 <h4 class="block-vacancy__title">Engineer</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Seattle</span></li>
@@ -76,7 +76,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy" href="#">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
                 <h4 class="block-vacancy__title">Office Manager</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>New York</span></li>
@@ -85,7 +85,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy" href="#">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
                 <h4 class="block-vacancy__title">Director</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Chicago</span></li>
@@ -94,7 +94,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy" href="#">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
                 <h4 class="block-vacancy__title">Chief Engineer</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Alexandria</span></li>

@@ -37,22 +37,22 @@
         <!-- Gallery -->
         <section class="well-lg-var-4 bg-secondary-var-4">
             <div class="container text-center">
-                <h2>Gallary</h2>
+                <h2>Collage</h2>
                 <div class="isotope-filters text-center">
                     <button data-isotope-filter="type-1" data-isotope-group="gallery">
-                    Gallary  1
+                        Products
                     </button>
                     <button data-isotope-filter="type-2" data-isotope-group="gallery" class="preffix-1">
-                    Gallary  2
+                        Man power
                     </button>
                     <button data-isotope-filter="type-3" data-isotope-group="gallery" class="preffix-1">
-                    Gallary  3
+                        Manufacturing
                     </button>
                     <button data-isotope-filter="type-4" data-isotope-group="gallery" class="preffix-1">
-                    Gallary  4
+                        Projects
                     </button>
                     <button data-isotope-filter="*" data-isotope-group="gallery" class="preffix-1 active">
-                        All Gallary 
+                        All
                     </button>
                 </div>
 
@@ -63,12 +63,22 @@
                      >
 
                     <div class="col-md-8 col-sm-8" data-filter="type-3">
-                        <!-- Magnific Popup Image -->
-                        <a class="thumb" data-lightbox="image" href="images/gallery-05_original.jpg">
-                            <img src="images/gallery-05.jpg"  width="600" height="510" alt=""/>
-                            <span class="thumb__overlay fa fa-search"></span>
-                        </a>
-                        <!-- END Magnific Popup Image -->
+                        <div class="thumb-video"><img class="thumb-video__image"
+                                                      src="images/video-preview-962x465.jpg"
+                                                      alt="" width="962" height="465">
+                            <div class="thumb-video__caption">
+                                <a class="section-video-link html5lightbox bg-overlay "
+                                   href="images/2018-03-06-VIDEO-00000059.mp4" data-width="750" data-height="350" target="_blank"></a>
+
+                                <div class="section-content">
+                                    <a class="section-content-play html5lightbox thumb-video__button"
+                                       href="images/2018-03-06-VIDEO-00000059.mp4" data-width="700" data-height="400"  target="_blank">
+                                        <!--                                    <img src="images/video-preview-962x465.jpg" alt="play video">-->
+                                    </a>
+                                    <p class="section-content-text">See our video!</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4 col-sm-4" data-filter="type-3">
                         <!-- Magnific Popup Image -->
@@ -131,8 +141,11 @@
 
 <!-- Core Scripts -->
 <script src="js/core.min.js"></script>
+<script src="js/froogaloop2.min.js"></script>
+<script src="js/html5lightbox.js"></script>
 <!-- Additional Functionality Scripts -->
 <script src="js/script.js"></script>
-<script src="js/customer.js"></script>
+
+
 </body>
 </html>

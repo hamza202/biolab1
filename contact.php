@@ -94,6 +94,18 @@ function myMap() {
                                                    data-constraints="@NotEmpty @Email"/>
                                         </label>
                                     </div>
+                                    <div class="col-sm-12">
+                                        <div>
+                                        <label for="sel1">Management:</label>
+                                        <select class=""  id="sel1">
+                                            <option></option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                        </select>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12 offset-11">
                                         <label data-add-placeholder>
                                    <textarea name="message" placeholder="Message:"

@@ -14142,6 +14142,7 @@ html.boxed .rd-navbar--is-clone {
   transition: .4s all ease-in-out;
   font-size: 18px;
   padding: 14px 18px;
+  height: 57px;
   line-height: 30px;
   color: #7b7b7b;
   background: #fff;
@@ -14151,8 +14152,8 @@ html.boxed .rd-navbar--is-clone {
 
 .mfSelect .value:before, .mfSelect .value:after {
   position: absolute;
-  right: 12px;
-  top: 18px;
+  right: 20px;
+  top: 46px;
   width: 24px;
   height: 24px;
   font: 400 20px "FontAwesome";
@@ -16352,8 +16353,8 @@ ul.footer-social{
 }
 .careers-page h4 + p, .careers-page .heading-4 + p {
   margin-top: 25px;
-  font-size:12px;
-  color:#ccc;
+  font-size: 14px;
+  color: #909090;
 }
 
 .careers-page * + .list-2-columns {
@@ -16418,7 +16419,7 @@ ul.footer-social{
 }
 .careers-page  h2 + p, .careers-page  .heading-2 + p {
   margin-top: 32px;
-  color: #ccc;
+  color: #a2a2a2;
   font-size: 14px;
 }
 .bg-gray-4 {
@@ -16435,7 +16436,6 @@ ul.footer-social{
   width: 100%;
   padding: 40px 9%;
   border-radius: 4px;
-  background: #fff;
   box-shadow: -1px 0px 10px 0px rgba(42, 42, 42, 0.12);
 }
 

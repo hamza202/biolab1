@@ -2379,8 +2379,9 @@ html body .page .text-primary {
 }
 
 .bg-images-3 {
-  background: url("../images/home-03.jpg") no-repeat;
-  background-size:cover;
+  background-color: #004f71;
+  background-image: url("../img/black-linen.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 .bg-images-4 {
@@ -14041,7 +14042,7 @@ html.boxed .rd-navbar--is-clone {
   background: #fff;
   color: #7b7b7b;
   border-radius: 0;
-  z-index: 1;
+  z-index: 555;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
 }

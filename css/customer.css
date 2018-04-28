@@ -1399,23 +1399,7 @@ a.blue-btn:hover{
 .mb-30px{
     margin-bottom: 30px;
 }
-@media (max-width: 768px) {
-    .owl-prev, .owl-next {
-        top: -10%;
-    }
-    .owl-prev{
-        left: 15%;
-    }
-    .owl-next {
-        right: 15%;
-    }
-    ul.footer-social {
-        text-align: center;
-    }
-    .quick-link li{
-        text-align: center;
-    }
-}
+
 .well-lg-var-2{
     padding-bottom: 1rem;
 }
@@ -2271,4 +2255,44 @@ a.top-href{
     margin-right: 90px;
     margin-bottom: 0px;
     cursor: text;
+}
+.bg-images-3 .lSAction > a{
+    color: #fff;
+}
+.bg-images-3 .text-secondary{
+    color: #fff;
+}
+.rd-mailform .btn-secondary{
+    border: 3px solid #fff;
+}
+.rd-mailform .btn-secondary:hover{
+    background: #fff;
+    color: #004D71;
+}
+ul.footer-social{
+    padding-left: 40px;
+}
+@media (max-width: 768px) {
+    .owl-prev, .owl-next {
+        top: -10%;
+    }
+    .owl-prev{
+        left: 15%;
+    }
+    .owl-next {
+        right: 15%;
+    }
+    ul.footer-social {
+        text-align: center;
+        padding-left: 0;
+    }
+    .quick-link li{
+        text-align: center;
+    }
+    .shop .pull-right{
+        float: none !important;
+    }
+}
+.contact-info{
+    margin-top: 15px;
 }

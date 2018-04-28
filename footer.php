@@ -22,23 +22,22 @@
             </div>
             <div class="col-md-3">
                 <ul class="inline-list quick-link">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Media</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Gallary</a></li>
-                    <li><a href="#">Contacts us</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="news.php">Media</a></li>
+                    <li><a href="careers.php">Careers</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="collage.php">Collage</a></li>
+                    <li><a href="contact.php">Contacts us</a></li>
                 </ul>
             </div>
             <div class="col-md-4 text-center text-md-right">
                 <div class="dev-by">
+                    <a href="#">
                     Designed & Developed by :<br>
-                    <img src="images/m-logo.png" style="width:70px;height:auto" />
+                    <img src="images/m-logo1.png" style="width:70px;height:auto" />
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row text-left">
-
         </div>
     </div>
 </footer>

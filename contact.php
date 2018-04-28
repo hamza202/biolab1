@@ -43,26 +43,76 @@
                 </li>
             </ul>
         </div> -->
-        <div id="map" style="width:100%;height:calc(100vh - 72px);"></div>
 
-<script>
-function myMap() {
-  var myCenter = new google.maps.LatLng(24.7000000,46.7000000);
-  var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 5};
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-  var marker = new google.maps.Marker({position:myCenter});
-  marker.setMap(map);
+<section class="bg-gray-4 well-lg-var-3">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 text-center">
+            <h2>Office</h2>
+            <br>
+            <br>
+        </div>
+        <div class="col-md-4">
 
-  // Zoom to 9 when clicking on marker
-  google.maps.event.addListener(marker,'click',function() {
-    map.setZoom(9);
-    map.setCenter(marker.getPosition());
-  });
-}
-</script>
+            <address>
+                Corporate Office
+            </address>
+            <div class="contact-info">
+                <dl>
+                    <dt> Address </dt><dd>Biolab Arabia Ltd. PO Box 9175 Riyadh, 11413 Kingdom of Saudi Arabia</dd>
+                </dl>
+                <dl>
+                    <dt> Telephone </dt><dd><a href="callto:+966114761414">(+966)11 476 1414</a></dd>
+                </dl>
+                <dl>
+                    <dt>FAX </dt><dd><a href="callto:+966114729008">+966 11 472 9008</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="col-md-4">
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjr6yYjHOEV04xWmnF9rKzzupyfDxylTc&callback=myMap"></script>
+            <address>
+                Head Office
+            </address>
+            <div class="contact-info">
+                <dl>
+                    <dt> Address </dt><dd>Biolab Arabia Ltd.
+                        PO Box 76126
+                        Al Khobar, 31952
+                        Kingdom of Saudi Arabia</dd>
+                </dl>
+                <dl>
+                    <dt> Telephone </dt><dd><a href="callto:+96613 894 5662">(+966)13 894 5662</a></dd>
+                </dl>
+                <dl>
+                    <dt>FAX </dt><dd><a href="callto:+966138945226">+966 13 894 5226</a></dd>
+                </dl>
+            </div>
+        </div>
+        <div class="col-md-4">
+
+            <address>
+                Factory
+            </address>
+            <div class="contact-info">
+                <dl>
+                    <dt> Address </dt><dd>Biolab Arabia Ltd.
+                        Jubail Industrial City
+                        PO Box 10918
+                        Jubail, 31961
+                        Kingdom of Saudi Arabia</dd>
+                </dl>
+                <dl>
+                    <dt> Telephone </dt><dd><a href="callto:+966133403180">(+966)133403180</a></dd>
+                </dl>
+                <dl>
+                    <dt>FAX </dt><dd><a href="callto:+966133403188">+966 13 340 3188</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
         <!-- END RD Google Map -->
         <!-- Why exterior design is important-->
@@ -72,7 +122,7 @@ function myMap() {
                     <div class="col-md-6 bg-secondary-var-3 inset-3">
                         <h2>contact form</h2>
                         <!-- RD Mailform -->
-                        <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                        <form class='rd-mailform' method="post" action="#">
                             <!-- RD Mailform Type -->
                             <input type="hidden" name="form-type" value="contact"/>
                             <!-- END RD Mailform Type -->
@@ -123,25 +173,8 @@ function myMap() {
                         <!-- END RD Mailform -->
                         <div class="triangel"></div>
                     </div>
-                    <div class="col-md-4  col-md-preffix-2 well-sm">
-                        <h2>Address</h2>
-
-                        <p>Email us with any questions or inquiries or use our contact data. We would be happy to answer
-                            your questions.</p>
-                        <address>SAUDI ARABIA - RIYADH
-                        </address>
-                        <div class="contact-info">
-                            <dl>
-                                <dt> phone </dt><dd><a href="callto:#">(+966)13 894 5662</a></dd>
-                            </dl>
-                            <dl>
-                                <dt> Telephone </dt><dd><a href="callto:#">+1 800 603 6035</a></dd>
-                            </dl>
-                            <dl>
-                                <dt>FAX </dt><dd><a href="callto:#">+1 800 889 9898</a></dd>
-                            </dl>
-                            E-mail: <a href="mailto:#" class="mail">info@biolabarabia.com</a>
-                        </div>
+                    <div class="col-md-6">
+                        <div id="map" style="width: 126%; height: 652px; margin-left: -39px; position: relative; overflow: hidden;"></div>
                     </div>
                 </div>
             </div>
@@ -152,6 +185,24 @@ function myMap() {
     ==========================================================-->
 <?php include ('footer.php')?>
 </div>
+<script>
+    function myMap() {
+        var myCenter = new google.maps.LatLng(24.7000000,46.7000000);
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {center: myCenter, zoom: 5};
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({position:myCenter});
+        marker.setMap(map);
+
+        // Zoom to 9 when clicking on marker
+        google.maps.event.addListener(marker,'click',function() {
+            map.setZoom(9);
+            map.setCenter(marker.getPosition());
+        });
+    }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjr6yYjHOEV04xWmnF9rKzzupyfDxylTc&callback=myMap"></script>
 
 <!-- Core Scripts -->
 <script src="js/core.min.js"></script>

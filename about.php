@@ -59,10 +59,10 @@
         <!-- END  About us-->
 
         <!--  Perfect Garden -->
-        <section id="Chairman">
+        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 bg-secondary-var-3 bg-position">
+                    <div class="col-md-6 bg-secondary-var-3 bg-position" id="Chairman">
                         <h2 class="h2-v">Chairman of the Board Message
                         </h2>
 

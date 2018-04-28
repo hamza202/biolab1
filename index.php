@@ -40,7 +40,7 @@
 
                     </div>
                 </div>
-                <div class="swiper-slide" data-slide-bg="images/009.jpg">
+                <div class="swiper-slide" data-slide-bg="images/99.jpg">
                     <div class="swiper-slide-caption">
 
                     </div>
@@ -115,7 +115,7 @@
                     </div>
                     <div class="col-md-4 offset-1 item animated wow rotateIn"
                     " data-wow-delay="0.8s" data-wow-duration="2s"">
-                    <span class="fa fa-gift padding-icons fa-3x icon-xl-var-1 icon-default animated wow rotateIn"
+                    <span class="fa fa-flask padding-icons fa-3x icon-xl-var-1 icon-default animated wow rotateIn"
                           data-wow-delay="0.8s" data-wow-duration="2s"></span>
                     <h4 class="counter text-bold" data-from="0" data-to="4" data-speed="1000"></h4>
                     <h4 class="text-bold text-secondary">Successful projects <br> and customers</h4>
@@ -214,7 +214,7 @@
 
                             </section>
                             <div class="mt-40px" style="margin-bottom: 90px;">
-                                <a href="#" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
+                                <a href="products.php" class="btn btn-secondary-var-1 btn-md blue-btn">Read More</a>
                             </div>
 
                             <input type="radio" name="accordion" id="acc-close"/>
@@ -310,7 +310,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. and more recently
                             with
                             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <a href="#" class="btn btn-secondary-var-1 btn-md">More & View</a>
+                        <a href="about.php#Team" class="btn btn-secondary-var-1 btn-md">More & View</a>
                         <div class="triangel-var-1"></div>
                     </div>
                     <div class="col-md-7 offset-2 bg-images-2 forTeam animated wow fadeInLeftBig">
@@ -321,13 +321,34 @@
         </section>
         <!-- our client  Design -->
         <!-- Garden -->
-        <section class="well-xl-var-1 bg-images-3" style="margin-top: 65px;margin-bottom:5px">
+        <section class="well-xl-var-1 bg-images-3" style="">
             <!--style="margin-top: 65px;" -->
-            <div class="container text-center color-white">
-                <h1 class="color-white animated wow fadeInUp">BioLab</h1>
-                <h3 class="text-bold text-shadow animated wow fadeInUp">Arabia ltd. co.</h3>
-                <a href="#" class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn animated wow fadeInUp">learn
-                    More</a>
+            <div class="container text-center">
+                <h2 class="color-white">biolab CLIENT</h2>
+                <div class="row offset-5">
+                    <ul id="customers-slider" class="content-slider m-t-45">
+                        <li>
+                            <img src="images/about-04.jpg" width="230" height="230" alt="" class="round">
+                            <h4 class="text-bold text-secondary">Client1</h4>
+                        </li>
+                        <li>
+                            <img src="images/about-05.jpg" width="230" height="230" alt="" class="round">
+                            <h4 class="text-bold text-secondary">Client2</h4>
+                        </li>
+                        <li>
+                            <img src="images/about-06.jpg" width="230" height="230" alt="" class="round">
+                            <h4 class="text-bold text-secondary">Client3</h4>
+                        </li>
+                        <li>
+                            <img src="images/about-07.jpg" width="230" height="230" alt="" class="round">
+                            <h4 class="text-bold text-secondary">Client4</h4>
+                        </li>
+                        <li>
+                            <img src="images/about-07.jpg" width="230" height="230" alt="" class="round">
+                            <h4 class="text-bold text-secondary">Client5</h4>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- END Garden-->
@@ -402,7 +423,7 @@
                                 <p>Saline Water Conversion Corporation (SWCC), Ras Al Khair, has awarded Biolab Arabia a
                                     contract to supply 100% of their antiscalant chemical requirements for the year
                                     2016-17.</p>
-                                <a href="#"
+                                <a href="news-details.php"
                                    class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
                                     Read More</a>
                             </div>
@@ -413,7 +434,7 @@
                                 <p>Biolab Arabia has been awarded a contract by Sharjah Electrical and Water Authority
                                     (SEWA) to
                                     supply 100% of their antiscalant chemical requirements for the year 2016-17.</p>
-                                <a href="#"
+                                <a href="news-details.php"
                                    class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
                                     Read More</a>
 
@@ -424,7 +445,7 @@
                                     antiscalant
                                     chemical requirements for 2016-2017.
                                 </p>
-                                <a href="#"
+                                <a href="news-details.php"
                                    class="btn btn-md btn-secondary-var-2 offset-3 gardenbtn  wow fadeInUp read-more">
                                     Read More</a>
 
@@ -520,6 +541,46 @@
             prevHtml: '<i class="fa fa-angle-left"></i>',
             nextHtml: '<i class="fa fa-angle-right"></i>',
             pager:false
+        });
+    });
+</script>
+<script src="js/lightslider.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#customers-slider").lightSlider({
+            loop: true,
+            keyPress: true,
+            auto:true,
+            speed:1000,
+            pause:2500,
+            slideMove: 1,
+            item: 4,
+            prevHtml: '<i class="fa fa-angle-left"></i>',
+            nextHtml: '<i class="fa fa-angle-right"></i>',
+            pager:false,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        item: 3,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        item: 2,
+                        slideMove: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        item: 1,
+                        slideMove: 1
+                    }
+                }
+            ]
         });
     });
 </script>

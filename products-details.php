@@ -81,7 +81,7 @@
                     <div class="col-md-6">
                         <img src="images/0009.jpg">
                         <br><br>
-                        <a href="inquiry.php" class="btn btn-secondary btn-md offset-6">Apply</a>
+                        <a href="inquiry.php" class="btn btn-secondary btn-md offset-6">Send an Inquiry</a>
                     </div>
                 </div>
             </div>

@@ -67,7 +67,7 @@
           <p>Here’s a list of recently opened positions at Creator.</p>
           <div class="range range2">
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="jobs.php">
                 <h4 class="block-vacancy__title">Engineer</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Seattle</span></li>
@@ -76,7 +76,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="jobs.php">
                 <h4 class="block-vacancy__title">Office Manager</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>New York</span></li>
@@ -85,7 +85,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="jobs.php">
                 <h4 class="block-vacancy__title">Director</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Chicago</span></li>
@@ -94,7 +94,7 @@
                 </ul></a>
             </div>
             <div class="col-sm-10 col-md-6 padding-y-15px">
-              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="job.php">
+              <!-- Block vacancy--><a class="block-vacancy bg-gray-4" href="jobs.php">
                 <h4 class="block-vacancy__title">Chief Engineer</h4>
                 <ul class="block-vacancy__meta">
                   <li><span class="fas fa-map-marker"></span><span>Alexandria</span></li>
